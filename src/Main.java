@@ -15,7 +15,8 @@ public class Main {
 
 
         // now we create the school
-        School school = new School(403,
+        School school = new School(
+                403,
                 62,
                 2.98,
                 "Grady High School",
