@@ -15,12 +15,17 @@ public class Main {
 
 
         // now we create the school
-        School school = new School(403, 62, 2.98, "Grady High School", "Atlanta, GA", true);
+        School school = new School(403,
+                62,
+                2.98,
+                "Grady High School",
+                "Atlanta, GA",
+                true);
 
-        // what does toString give us?
+        // this is toString()
         System.out.println(school);
 
-        // what does report give us?
+        // this is report()
         System.out.println(school.report());
     }
 }
